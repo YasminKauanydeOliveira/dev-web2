@@ -1,0 +1,264 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*==========================================
+                GERAL
+============================================*/
+
+html {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: calc(10px + 1vw);
+	background-color: #f7f3f0;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+span.procrastinacao {
+	font-style: italic;
+}
+
+/*main {
+    margin: 0 10vw 0 10vw;
+}*/
+
+/*==========================================
+            PROCRASTINAÇÃO
+============================================*/
+/*==========================================
+           		 HEADER
+============================================*/
+header {
+	border-bottom: 2.5px solid #2f2a19;
+}
+header nav {
+	display: flex;
+	background-color: #d1ae95;
+	padding: 0.5vw 1vw 0.5vw 1vw;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header nav p img {
+	border-radius: 50px;
+	justify-content: left;
+	width: 30px;
+	margin: 0 0 0 1vw;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: right;
+	font-size: 0.9rem;
+	font-weight: bold;
+
+}
+
+header nav ul li {
+	margin: 2px 12px 2px 12px;
+}
+
+header nav ul li.atual a {
+	color: hsl(0, 0%, 100%);
+}
+/*==========================================
+           		 MAIN
+============================================*/
+/*=============BANNER===========*/
+ main img.banner {
+	width: 100%;
+}
+
+/*=============TEXTO============*/
+
+main section.text ul li {
+	display: flex;
+	margin: 1vw 0 1vw 0;
+
+}
+main section.text ul li p {
+	padding: 5vw 6vw 5vw 6vw;
+	font-size: 1rem;
+}
+
+ main section.text p.bege {
+	background-color: #e2ddd7;
+}
+
+/*==========FORMULÁRIO===========*/
+ main section.form form {
+	padding: 2vw 15vw 2vw 10vw;
+	font-weight: bold;
+	background-color:  #e2ddd7;
+}
+main section.form h2 {
+	padding: 3vw 8vw 3vw 8vw;
+	font-weight: bold;
+}
+
+/*=========REFERÊNCIAS==========*/
+main section.referencias {
+	margin: 4vw 6vw 0 6vw;
+}
+main section.referencias h2 {
+	font-weight: bold;
+	font-size: 1rem;
+	margin: 2vw 0 1vw 0;
+}
+main section.referencias p {
+	font-size: 0.8rem;
+	margin: 12px 0 12px 0;
+}
+
+
+/*==========================================
+           		 FOOTER
+============================================*/
+footer {
+	background-color: #704a2f;
+	padding: 2vw 0vw 2vw 0;
+	color:#e4ddd6;
+}
+footer div {
+	display: flex;
+	margin: 0.5vw 0 0.6vw 6vw;
+	font-size: 0.8rem;
+}
+footer div p {
+	margin:  0 4vw 0.2vw 1vw;
+}
